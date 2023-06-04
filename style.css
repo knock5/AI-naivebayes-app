@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #85CDFD;
+}
+
+.header-main {
+    text-align: center;
+    background-color: #3C84AB;
+    color: white;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #3C84AB;
+    color: white;
+}
+
+.wrap-input {
+    background-color: #3C84AB;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.form-item {
+    padding: 7px;
+}
+
+.btn-back {
+    text-decoration: none;
+    background-color: mediumaquamarine;
+    color: black;
+    padding: 14px;
+    border-radius: 7px;
+}
+
+.btn-tabel {
+    text-decoration: none;
+    background-color: #362FD9;
+    color: white;
+    padding: 14px;
+    border-radius: 7px;
+}
+
+.btn-enter {
+    padding: 14px 24px;
+    background-color: lawngreen;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+}
+
+.content-flex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+th {
+    background-color: #0A4D68;
+    color: white;
+}
+
+.table-wrap {
+    margin: 50px;
+}
+
+.table-data {
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table-row:nth-child(odd) {
+    background-color: mediumaquamarine;
+}
+
+.wrap-btn {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table1, .table2, .table3, .table4 {
+    width: 100%;
+    border: 1px solid #3C84AB;
+}
+
+.table-item {
+    padding: 7px;
+    border: 1px solid #3C84AB;
+    text-align: center;
+}
+
+.box {
+    padding: 15px;
+}
+
+.hasil {
+    background-color: dodgerblue;
+}
+
+.result {
+    background-color: #60ff60;
+}
+
+.wrap-res3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container-res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid pink;
+    height: 100%;
+    background-color: lawngreen;
+}
+
+
+
